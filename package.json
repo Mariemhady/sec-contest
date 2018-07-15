@@ -1,0 +1,24 @@
+{
+  "name": "sec-contest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node random.js",
+    "test-unit": "NODE_ENV=test mocha '/**/*.spec.js'",
+    "test": "nyc --reporter=html --reporter=text node_modules/.bin/mocha {'',**,**/**,**/**/**}/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariemhady/sec-contest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariemhady/sec-contest/issues"
+  },
+  "homepage": "https://github.com/Mariemhady/sec-contest#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
